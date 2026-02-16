@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ass</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family:  sans-serif;
+            Font-weight: 100;
+            
+        }
+        .container {
+            display: flex;
+            padding: 1rem;
+            gap: 1rem;
+        }
+        .Navbar {
+            background-color: #FFFFFF;
+            color: #212529;
+            justify-content: flex-end;
+            font-weight: bold;
+            
+        }
+
+        .metrics {
+            background-color: #e5c687;
+            width: 100%;
+            min-height: 100px;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 15px;
+            font-weight: 400;
+        
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .menu{
+            display: flex;
+            gap: 1rem;
+        }
+        .apply-btn{
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 1em;  
+            font-weight: bold;
+            padding:2px 16px;
+            display: flex;
+        }
+        .btn-icon{
+            background-color: #154677;
+            display: inline-block;
+            
+        }
+        .Hero{
+            background-color: #154677;
+            color: #FFFFFF;
+            font-weight: bold;
+            display:flex;
+            justify-content:flex-end; 
+            align-items: center;
+            gap: 10rem;
+            
+            
+        }
+         .hero-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            max-width: 45%;
+            font-size: 60px;
+        }
+      
+        .st{
+            color: #e5c687;
+        }
+        
+        .image {
+            width: 45%;
+            display: flex;
+            flex-direction:column;
+            justify-content:flex-start;
+            position: relative;
+        }
+        .image img{
+            width:90%;
+            height:auto;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 40px;
+            left: 30px;
+            margin-top: 10px;
+            align-items: center;
+        }
+        .new{
+            color: #27bf56;
+            font-size: 18px;
+            padding: 10px;
+        }
+        .title{
+            font-size: 34px;
+            color: #FFFFFF;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="Navbar container">
+        <div>Careers</div><div>Conatct</div>
+        <div>Links</div>
+        <div>|</div>
+        <div>EN</div>
+        <div>Ar</div>
+        <div>|</div>
+        <div>0</div>
+    </div>
+
+    <section class="metrics container">
+        <div class="card">
+            <img src="logo.png">
+        </div>
+
+        <div class="menu">
+           <div>About</div>
+           <div>Study</div>
+           <div>Research</div>
+           <div>Innovate</div>
+           <div>Student Resources</div>
+           <div>News</div>
+           <div class="apply-btn">
+            <span class="btn-icon"></span>
+            Apply Now
+        </div> 
+        </div>
+    </section>
+
+   <section class="Hero">
+
+    <div class="hero-text">
+        <div class="span">Advance Your</div>
+        <div class="st">research</div>
+        <div class="st">career</div>
+    </div>
+
+    <div class="image">
+        <img src="banner-bg-modal.png" class="image-top">
+            <div class="overlay">
+               <div class="new">Programm class</div>
+               <div class="title">
+               <div>Sunday,31 May- Friday,26</div>
+               <div>June</div>
+               <div>2026</div>
+               </div>
+               <div class="apply-btn">Apply Now</div>
+            </div>
+        <img src="students.png" class="image-bottom">
+    </div>
+
+    </section>
+
+</body>
+</html>

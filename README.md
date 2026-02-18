@@ -66,7 +66,7 @@ project-folder/
 ## 🎓 Inspired By
 
 Muhammad Bin Zayed University of Artificial Intelligence (MBZUAI)  
-Official Website: https://mbzuai.ac.ae/
+
 
 ---
 
